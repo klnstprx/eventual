@@ -1,120 +1,68 @@
-argcomplete==3.1.4
-attrs==23.2.0
-Babel==2.10.3
-bcc==0.29.1
-bcrypt==3.2.2
-beautifulsoup4==4.12.3
-blinker==1.7.0
-Brlapi==0.8.5
-Brotli==1.1.0
-certifi==2023.11.17
-chardet==5.2.0
-charset-normalizer==3.3.2
-click==8.1.6
-cloud-init==24.3.1
-colorama==0.4.6
-coloredlogs==15.0.1
-command-not-found==0.3
-configobj==5.0.8
-cryptography==41.0.7
-cssselect==1.2.0
-cupshelpers==1.0
-dbus-python==1.3.2
-defer==1.0.6
-Deprecated==1.2.14
-deprecation==2.0.7
-distro==1.9.0
-distro-info==1.7+build1
-duplicity==2.1.4
-fasteners==0.18
-freetype-py==2.4.0
-gpg==1.18.0
-html5lib==1.1
-httplib2==0.20.4
-humanfriendly==10.0
-hypothesis==6.98.15
-idna==3.6
-img2pdf==0.5.1
-importlib-metadata==4.12.0
-Jinja2==3.1.2
-jsonpatch==1.32
-jsonpointer==2.0
-jsonschema==4.10.3
-language-selector==0.1
-launchpadlib==1.11.0
-lazr.restfulclient==0.14.6
-lazr.uri==1.0.6
-libvirt-python==10.0.0
-louis==3.29.0
-lxml==5.2.1
-Mako==1.3.2.dev0
-Markdown==3.5.2
-markdown-it-py==3.0.0
-MarkupSafe==2.1.5
-mdurl==0.1.2
-monotonic==1.6
-more-itertools==10.2.0
-mutagen==1.46.0
-netaddr==0.8.0
-netifaces==0.11.0
-oauthlib==3.2.2
-ocrmypdf==15.2.0+dfsg1
-olefile==0.46
-packaging==24.0
-paramiko==2.12.0
-pdfminer.six==20221105
-pexpect==4.9.0
-pikepdf==8.7.1
-pillow==10.2.0
-pipx==1.4.3
-platformdirs==4.2.0
-pluggy==1.4.0
-psutil==5.9.8
-ptyprocess==0.7.0
-pycairo==1.25.1
-pycryptodomex==3.20.0
-pycups==2.0.1
-Pygments==2.17.2
-PyGObject==3.48.2
-PyJWT==2.7.0
-pylatexenc==2.10
-PyNaCl==1.5.0
-pyparsing==3.1.1
-pyrsistent==0.20.0
-pyserial==3.5
-python-apt==2.7.7+ubuntu3
-python-dateutil==2.8.2
-python-debian==0.1.49+ubuntu2
-pytz==2024.1
-pyxdg==0.28
-PyYAML==6.0.1
-ranger-fm==1.9.3
-reportlab==4.1.0
-requests==2.31.0
-rich==13.7.1
-rlPyCairo==0.3.0
-screen-resolution-extra==0.0.0
-setuptools==68.1.2
-six==1.16.0
-sortedcontainers==2.4.0
-soupsieve==2.5
-ssh-import-id==5.11
-systemd-python==235
-trash-cli==0.23.11.10
-ubuntu-drivers-common==0.0.0
-ubuntu-pro-client==8001
-ufw==0.36.2
-unattended-upgrades==0.1
-urllib3==2.0.7
-usb-creator==0.3.16
-userpath==1.9.1
-vboxapi==1
-wadllib==1.3.6
-webencodings==0.5.1
-websockets==10.4
-wheel==0.42.0
-wrapt==1.15.0
-xdg==5
-xkit==0.0.0
-yt-dlp==2024.4.9
-zipp==1.0.0
+aiohappyeyeballs @ file:///home/conda/feedstock_root/build_artifacts/aiohappyeyeballs_1733331917983/work
+aiohttp @ file:///home/conda/feedstock_root/build_artifacts/aiohttp_1733838714832/work
+aiosignal @ file:///home/conda/feedstock_root/build_artifacts/aiosignal_1733332106743/work
+annotated-types @ file:///home/conda/feedstock_root/build_artifacts/annotated-types_1733247046149/work
+anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1733532585909/work
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1733519953311/work
+Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1725267488082/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1725278078093/work/certifi
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1725560556141/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1733218092148/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1733221831880/work
+cloudinary==1.41.0
+cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography-split_1732745932181/work
+dnspython @ file:///home/conda/feedstock_root/build_artifacts/dnspython_1733256735222/work
+ecdsa @ file:///home/conda/feedstock_root/build_artifacts/ecdsa_1712652007483/work
+email_validator @ file:///home/conda/feedstock_root/build_artifacts/email-validator-meta_1733300719943/work
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1733208806608/work
+fastapi @ file:///home/conda/feedstock_root/build_artifacts/fastapi_1733362299471/work
+fastapi-cli @ file:///home/conda/feedstock_root/build_artifacts/fastapi-cli_1733881645211/work
+frozenlist @ file:///home/conda/feedstock_root/build_artifacts/frozenlist_1729699477231/work
+gmpy2 @ file:///home/conda/feedstock_root/build_artifacts/gmpy2_1733462551614/work
+h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1733327467879/work
+h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1733298745555/work
+hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1733299205993/work
+httpcore @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_httpcore_1731707562/work
+httptools @ file:///home/conda/feedstock_root/build_artifacts/httptools_1732707653431/work
+httpx @ file:///home/conda/feedstock_root/build_artifacts/httpx_1733663348460/work
+hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1733298771451/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1733211830134/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1733217336947/work
+mangum @ file:///home/conda/feedstock_root/build_artifacts/mangum_1727481432059/work
+markdown-it-py @ file:///home/conda/feedstock_root/build_artifacts/markdown-it-py_1733250460757/work
+MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1733219680183/work
+mdurl @ file:///home/conda/feedstock_root/build_artifacts/mdurl_1733255585584/work
+motor @ file:///home/conda/feedstock_root/build_artifacts/motor_1726769779259/work
+multidict @ file:///home/conda/feedstock_root/build_artifacts/multidict_1733913043842/work
+propcache @ file:///home/conda/feedstock_root/build_artifacts/propcache_1733391835162/work
+pyasn1 @ file:///home/conda/feedstock_root/build_artifacts/pyasn1_1733217608156/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
+pydantic @ file:///home/conda/feedstock_root/build_artifacts/pydantic_1733316837492/work
+pydantic-settings @ file:///home/conda/feedstock_root/build_artifacts/pydantic-settings_1733851820030/work
+pydantic_core @ file:///home/conda/feedstock_root/build_artifacts/pydantic-core_1732253908523/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1733221634316/work
+pymongo @ file:///home/conda/feedstock_root/build_artifacts/pymongo_1726757925210/work
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
+python-dotenv @ file:///home/conda/feedstock_root/build_artifacts/python-dotenv_1733243180666/work
+python-jose @ file:///home/conda/feedstock_root/build_artifacts/python-jose_1624701740191/work
+python-multipart @ file:///home/conda/feedstock_root/build_artifacts/python-multipart_1733323064783/work
+PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1725456146795/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1733217035951/work
+rich @ file:///home/conda/feedstock_root/build_artifacts/rich_1733342254348/work/dist
+rich-toolkit @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_rich-toolkit_1733750834/work
+rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1733662684165/work
+shellingham @ file:///home/conda/feedstock_root/build_artifacts/shellingham_1733300899265/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+sniffio @ file:///home/conda/feedstock_root/build_artifacts/sniffio_1733244044561/work
+starlette @ file:///home/conda/feedstock_root/build_artifacts/starlette_1733344384719/work
+tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1732615881993/work
+typer==0.15.1
+typer-slim==0.15.1
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1733206856906/work
+uvicorn @ file:///home/conda/feedstock_root/build_artifacts/uvicorn_1733331924121/work
+uvloop @ file:///home/conda/feedstock_root/build_artifacts/uvloop_1730214320610/work
+watchfiles @ file:///home/conda/feedstock_root/build_artifacts/watchfiles_1733998699340/work
+websockets @ file:///home/conda/feedstock_root/build_artifacts/websockets_1731498610274/work
+yarl @ file:///home/conda/feedstock_root/build_artifacts/yarl_1733428786930/work
+zstandard==0.23.0
