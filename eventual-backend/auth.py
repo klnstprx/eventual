@@ -15,7 +15,7 @@ router = APIRouter()
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
 GOOGLE_REDIRECT_URI = os.getenv("GOOGLE_REDIRECT_URI")
-SECRET_KEY = os.getenv("SECRET_KEY", "your_default_secret_key")
+SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/token")
@@ -89,9 +89,7 @@ async def callback(request: Request):
     }
     await logs_collection.insert_one(log)
 
-    frontend_redirect_uri = os.getenv(
-        "FRONTEND_REDIRECT_URI", "http://localhost:5173/login"
-    )
+    frontend_redirect_uri = os.getenv("FRONTEND_REDIRECT_URI")
     redirect_url = f"{frontend_redirect_uri}?access_token={access_token}"
     return RedirectResponse(redirect_url)
 

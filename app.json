@@ -1,0 +1,4 @@
+{
+  "name": "eventual-app",
+  "buildpacks": [{ "url": "heroku/nodejs" }, { "url": "heroku/python" }]
+}
