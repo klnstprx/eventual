@@ -7,3 +7,4 @@ motor
 python-dotenv
 cloudinary
 email-validator
+python-multipart
